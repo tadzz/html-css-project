@@ -1,12 +1,19 @@
 body,
 html {
-  background: #25262f;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
     "Oxygen-Sans", "Ubuntu", "Cantarell", "Helvetica Neue", sans-serif;
   font-size: 16px;
   line-height: 1.5em;
 }
-
+/*
+* {
+  border: 1px solid red;
+}
+*/
+.article:first-child {
+  box-shadow: 4px 4px 4px 4px #dba944;
+}
+/*
 .site-wrapper {
   max-width: 1200px;
   width: 90%;
@@ -77,3 +84,5 @@ html {
   background: #009cd4;
   outline: 0;
 }
+
+*/
